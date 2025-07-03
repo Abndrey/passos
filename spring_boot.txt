@@ -1,0 +1,24 @@
+site: start.apring.io
+
+marcar:java, maven, 353, não posso selecionar (SNAPSHOT), grup => (minha empresa):com.mypet,
+
+Artfact => nome do projeto, Description (Descrição do projeto), Packagin: Jar, Java:21 (versão),
+
+Adicionar as Dependencias:Spring Web, JPA, MySql, Dev. Clicar em Generate.
+
+Extrair arquivo  criado
+
+
+
+
+	Processo após códar no projeto
+limpar o projeto:mvn clean
+
+compilar o projeto:mvn compile
+		
+terminal: ./mvnw spring-boot:run => execultar
+		
+Testar no navegador: localhost:8080 (http)
+Procucar a dependencia do mysql no pom xml
+
+=> url do banco de dados:colar código em: pasta resource, application.properties "pegar código em programação back and => resources"				

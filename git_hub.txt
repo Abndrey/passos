@@ -1,0 +1,23 @@
+											Git hub
+Criar um projeto com mesmo nome da pasta =>Exemplo:mypet;
+ERRO COMUM:.git/
+"Não pode ter essa pasta no seu caminho"
+Comanda do erro: ls -lha, se estiver apaga!
+Entrar na pasta do projeto.
+OBG: cuidado ao descompactar errado uma pasta dentro da outra (repetido o nome)
+							Sincronizar
+git init (inicializar o repositório)
+Tem que aparecer no caminho (master)
+git branch -M main => branch principal
+
+		Apontar
+=> Mostrar para o git  que a pasta do projeto aponta para a pasta no GitHub
+Código:git remote add origin => link do repositório
+git push -u origin main
+
+git log: lista os commits na máquina local
+
+
+
+
+
